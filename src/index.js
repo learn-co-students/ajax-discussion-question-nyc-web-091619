@@ -7,11 +7,6 @@ document.addEventListener("DOMContentLoaded", () => {
   newButton.addEventListener('click', getUser);
 });
 
-
-/******************************************************************************/
-/*     Get new user when button is clicked                                    */
-/******************************************************************************/
-
 function getUser() {
   const API_URL = "https://randomuser.me/api/"
 
